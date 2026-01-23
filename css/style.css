@@ -23,7 +23,16 @@ body {
 }
 
 body {
-    background-color: rgb(0, 38, 255);
+    background-color: steelblue;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
 }
 
 #wrap {
