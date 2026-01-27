@@ -1,4 +1,6 @@
+/*****************************/
 /* Folhas de Estilos do Site */
+/*****************************/
 
 /* Estilos de posicionamento geral. */
 
@@ -7,24 +9,34 @@
     outline: none;
 }
 
+/* Estrutura da página */
+
 html,
 body {
+    position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*
-    Define a unidade de medida 'rem' que equivale ao espaço 
-    ocupado pela letra 'M' na tela.
-    1rem = 16px, 0.5rem = 8px 
+    Define a unidade de medida 'rem' que equivale ao espaço ocupado pela letra 
+    'M' na tela.
+     → 1rem = 16px, 0.5rem = 8px 
     */
-    position: relative;
     font-size: 16px;
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
+/* Fun da página */
+
 body {
-    background-color: rgb(17, 0, 255);
+    background-color: steelblue;
+    background-attachment: fixed;
+    background-image: url('/img/bg01.png');
+    background-position: center;
+    background-repeat: repeat;
 }
+
+/* Links em geral */
 
 a {
     color: steelblue;
@@ -34,6 +46,8 @@ a {
 a:hover {
     color: orangered;
 }
+
+/* Elemento #wrap usado para efeitos práticos */
 
 #wrap {
     position: relative;
@@ -88,13 +102,13 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 1rem;
+    padding: .8rem;
     transition: .2s;
 }
 
 nav a:first-child {
     margin-right: auto;
-    border-radius: .5rem 0 0 .5rem;
+    border-radius: .49rem 0 0 .49rem;
 }
 
 nav a:last-child {
