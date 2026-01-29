@@ -21,6 +21,7 @@ body {
      → 1rem = 16px, 0.5rem = 8px 
     */
     font-size: 16px;
+    color: rgb(0, 0, 0);
     height: 100%;
     margin: 0;
     padding: 0;
@@ -29,9 +30,8 @@ body {
 /* Fun da página */
 
 body {
-    background-color: steelblue;
+    background-color: rgb(255, 255, 255);
     background-attachment: fixed;
-    background-image: url('/img/bg01.png');
     background-position: center;
     background-repeat: repeat;
 }
@@ -39,12 +39,12 @@ body {
 /* Links em geral */
 
 a {
-    color: steelblue;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 a:hover {
-    color: orangered;
+    color: rgb(43, 255, 0);
 }
 
 /* Elemento #wrap usado para efeitos práticos */
@@ -68,7 +68,23 @@ header {
     align-items: center;
     margin: .5rem .5rem 0 .5rem;
     border-radius: .5rem;
+
+
 }
+
+.minha-imagem{
+    width: 120px;
+    height: auto;
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+}
+
 
 header div {
     text-align: center;
@@ -92,7 +108,7 @@ header small {
 /* Menu principal */
 
 nav {
-    background-color: black;
+    background-color: rgb(115, 255, 0);
     display: flex;
     justify-content: end;
     border-radius: .5rem;
@@ -100,7 +116,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: .8rem;
     transition: .2s;
@@ -128,18 +144,19 @@ main {
     margin: 0 .5rem .5rem .5rem;
     border-radius: .5rem;
     flex-grow: 1;
+
 }
 
 /* Rodapé */
 
 footer {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 0 .5rem .5rem .5rem;
     border-radius: .5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 footer a {
@@ -148,12 +165,13 @@ footer a {
 }
 
 footer a:hover {
-    color: orangered;
+    color: rgb(115, 255, 0);
 }
 
 footer i {
     font-size: 1.8rem;
     margin: .5rem;
+
 }
 
 footer>div {
